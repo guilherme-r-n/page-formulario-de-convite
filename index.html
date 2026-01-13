@@ -18,7 +18,7 @@
     <div id="app">
         <nav>
             <div class="nav-container">
-                <img src="assets/Logo.svg" alt="">
+                <img src="assets/Logo.svg" alt="ícone de cone de aniversário">
                 <h1>Festivite</h1>
                 <span>Crie um convite digital para o seu evento</span>
             </div>
@@ -26,7 +26,19 @@
 
         <main>
             <div class="main-container">
-                
+                <h1>Crie seu convite</h1>
+
+                <form method="post" enctype="multipart/form-data">
+                    <fieldset class="event-info">
+                        <img src="assets/icons/calendar.svg" alt="ícone de calendário">
+                        <legend>Sobre o evento</legend>
+
+                        <div class="input-wrapper">
+                            <label for="event-data">Título</label>
+                            <input id="event-data" name="event-data" type="text" placeholder="Nome do evento">
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </main>
     </div>
