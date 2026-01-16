@@ -41,6 +41,11 @@ nav {
 main {
     background-color: var(--shape-body);
     border-radius: 0.75rem;
+    padding: 5rem 8.125rem;
+
+    & h1 {
+        font: var(--heading-md);
+    }
 
     & .main-container {
         max-width: 51.25rem;

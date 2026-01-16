@@ -1,0 +1,17 @@
+input {
+    appearance: none;
+    background-color: var(--input-base);
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid var(--input-stroke);
+    padding: 0.8125rem 1rem;
+    font: var(--body-md);
+    color: var(--input-placeholder);
+}
+
+label {
+    font: var(--body-sm);
+    color: var(--text-body);
+    display: block;
+    margin-bottom: 0.75rem;
+}
