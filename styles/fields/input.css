@@ -15,3 +15,17 @@ label {
     display: block;
     margin-bottom: 0.75rem;
 }
+
+input[type="date"] {
+    position: relative;   
+
+    &::-webkit-calendar-picker-indicator {
+        opacity: 0;
+    }
+}
+
+.event-info {
+    & .flex {
+        gap: 1rem;
+    }
+}
