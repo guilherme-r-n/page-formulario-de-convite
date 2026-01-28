@@ -34,15 +34,17 @@
         height: 1rem;
 
         & path {
-            fill: #869198;
+            fill: var(--input-placeholder);
         }
 }
 
     &:hover,
     &:has(:checked) {
-        background-color: var(--shape-body);
-        path {
-            fill: #59B2FF;
+        background-color: var(--shape-button);
+        font: 600 0.875rem var(--font-family-opensans);
+        color: var(--text-heading);
+        & path {
+            fill: var(--brand-light);
         }
     }
 }
