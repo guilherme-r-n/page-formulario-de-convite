@@ -1,4 +1,4 @@
-input {
+input,textarea {
     appearance: none;
     background-color: var(--input-base);
     width: 100%;
