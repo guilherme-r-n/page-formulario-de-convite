@@ -16,4 +16,13 @@ legend {
     margin-bottom: 1.5rem;
     display: flex;
     gap: 0.75rem;
+
+    & .image-legend {
+        width: 1.5rem;
+        height: 1.5rem;
+
+        & path {
+            fill: var(--input-placeholder);
+        }
+    }
 }
