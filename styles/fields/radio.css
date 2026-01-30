@@ -48,3 +48,82 @@
         }
     }
 }
+
+.radio-color {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3.5rem, 1fr));
+
+    & .outside-radio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--shape-button);
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 999px;
+        position: relative;
+
+        & input,
+        & input:focus,
+        & input:hover {
+            all: unset;
+            position: absolute;
+            inset: 0;
+        }
+
+        &:hover,
+        &:has(:checked) {
+            border: 2px solid var(--brand-light);
+        }
+    }
+
+    & .radio-color-size {
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 999px;
+    }
+    
+    & .radio-brand-light {
+    background-color: var(--brand-light);
+    }
+
+    & .radio-navy {
+    background-color: var(--navy);
+    }
+
+    & .radio-purple {
+    background-color: var(--purple);
+    }
+
+    & .radio-fuschia {
+    background-color: var(--fuschia);
+    }
+
+    & .radio-pink {
+    background-color: var(--pink);
+    }
+
+    & .radio-danger {
+    background-color: var(--danger);
+    }
+
+    & .radio-orange {
+    background-color: var(--orange);
+    }
+
+    & .radio-yellow {
+    background-color: var(--yellow);
+    }
+
+    & .radio-lime {
+    background-color: var(--lime);
+    }
+
+    & .radio-green {
+    background-color: var(--green);
+    }
+
+    & .radio-cyan {
+    background-color: var(--cyan);
+    }   
+}
