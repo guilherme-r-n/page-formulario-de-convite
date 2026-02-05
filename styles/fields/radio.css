@@ -47,6 +47,10 @@
             fill: var(--brand-light);
         }
     }
+
+    & .event-image {
+        display: flex;
+    }
 }
 
 .radio-color {
