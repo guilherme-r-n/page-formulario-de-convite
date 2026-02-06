@@ -16,7 +16,7 @@ label {
     margin-bottom: 0.75rem;
 }
 
-input[type="date"] {
+input[type="datetime-local"] {
     position: relative;   
 
     &::-webkit-calendar-picker-indicator {
