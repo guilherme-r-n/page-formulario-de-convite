@@ -41,6 +41,7 @@ nav {
 main {
     background-color: var(--shape-body);
     border-radius: 0.75rem;
+    overflow: auto;
     padding: 5rem 8.125rem;
 
     & h1 {
