@@ -32,8 +32,26 @@ fieldset + fieldset {
     margin-top: 3rem;
 }
 
-.color-wrapper {
+.color-wrapper,
+.cards {
     & label {
         margin-bottom: 1rem;
+    }
+}
+
+figure {
+    & img {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    & figcaption {
+        display: flex;
+        justify-content: center;
+
+        & span {
+            font: var(--body-sm);
+            color: var(--text-heading);
+        }
     }
 }
