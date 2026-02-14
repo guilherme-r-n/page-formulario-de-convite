@@ -73,7 +73,7 @@
                                                     fill="white" />
                                             </svg>
                                         </div>
-                                        <input id="live-event" name="event-type" type="radio">
+                                        <input id="event-type" name="event-type" type="radio">
                                         <span>Presencial</span>
                                     </div>
 
@@ -86,7 +86,7 @@
                                                     fill="white" />
                                             </svg>
                                         </div>
-                                        <input id="online" name="event-type" type="radio">
+                                        <input id="event-type" name="event-type" type="radio">
                                         <span>Online</span>
                                     </div>
                                 </div>
@@ -181,7 +181,7 @@
 
                         <div class="flex">
                             <div class="cards flex-1">
-                                <label for="event-theme">Tema do evento</label>
+                                <label for="theme-selection">Tema do evento</label>
                                 <div class="event-theme">
                                     <div class="radio-theme">
                                         <figure>
@@ -320,13 +320,15 @@
                         </div>
 
                         <div class="flex">
-                            <div class="input-wrapper">
-                                <label for="toggle-color">Estilo</label>
+                            <div class="input-wrapper checkbox-wrapper">
+                                <label for="toggle">Estilo</label>
                                 <div class="toggle-wrapper">
-                                    <input type="checkbox">
-                                    <button></button>
+                                    <div class="toggle-inner">
+                                        <input id="toggle" name="toggle" type="checkbox">
+                                        <button></button>
+                                    </div>
+                                    <span class="text-toggle"></span>
                                 </div>
-                                <span></span>
                             </div>
                         </div>
                     </fieldset>
