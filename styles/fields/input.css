@@ -24,7 +24,7 @@ input[type="datetime-local"] {
     }
 }
 
-.event-info {
+.event-info, .contact-info {
     & .flex {
         gap: 1rem;
     }
