@@ -1,5 +1,7 @@
 .checkbox-wrapper {
   position: relative;
+  width: 11rem;
+  height: 4.9375rem;
 }
 
 button {
