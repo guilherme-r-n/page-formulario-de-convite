@@ -29,3 +29,22 @@ input[type="datetime-local"] {
         gap: 1rem;
     }
 }
+
+input {
+    &:invalid {
+        border: 1px solid var(--danger);
+    }
+
+    &[required] + .error {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font: var(--body-xs);
+        color: var(--danger);
+        margin-top: 0.5rem;
+    }
+
+    &:not(:focus):valid + .error {
+        display: none;
+    }
+}
