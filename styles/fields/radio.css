@@ -59,7 +59,9 @@
         border-radius: 999px;
         position: relative;
 
-        &:hover,
+        &:hover {
+            background-color: var(--shape-hover);
+        }
         &:has(:checked) {
             border: 2px solid var(--brand-light);
         }
@@ -146,7 +148,9 @@
         width: 100%;
     }
 
-    &:hover,
+    &:hover {
+        background-color: var(--shape-hover);
+    }
     &:has(:checked) {
         border: 2px solid var(--brand-light);
     }
